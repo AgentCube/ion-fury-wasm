@@ -1,0 +1,250 @@
+{
+  "format": "ion-fury-static-inventory-v1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 41,
+      "sha256": "c33eade062dae3665c559d8bd9503b45e001f6ee824a104e361fb4ae65862f85"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 123,
+      "sha256": "18b1d3a399bc905b03c2e7669b7a15d773ff4fa7c763d46b679fa4ec9f1db396"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 74,
+      "sha256": "d131e46575ad1378f70630e2cf533054da34bdbaed2742de16ffa8708c742b93"
+    },
+    {
+      "path": "THIRD_PARTY_INVENTORY.md",
+      "bytes": 4970,
+      "sha256": "a97568f7da0b9cc50b07da9f7ee4400a2c0d1ec7f8c263775b18d956aeba1a63"
+    },
+    {
+      "path": "app.js",
+      "bytes": 20471,
+      "sha256": "d8c62f64bd7f01ef101b870bd85a8de753e23ee3010c3148def958ae0b6b58fc"
+    },
+    {
+      "path": "assets/content.pack.00",
+      "bytes": 47185920,
+      "sha256": "da654a6dd31489319b1d8fe9ff6994dcfe5d0035e64c2864b2baf0e2b95b954e"
+    },
+    {
+      "path": "assets/content.pack.01",
+      "bytes": 47185920,
+      "sha256": "55c19baec5f64877b6d87300103dfff18be6d25d40f3d38bf0377f649d2bdfc3"
+    },
+    {
+      "path": "assets/content.pack.02",
+      "bytes": 47185920,
+      "sha256": "6c640a3ea16337cf96866dc7032df6153389f65c4259ebba557bc34b05f6b0e7"
+    },
+    {
+      "path": "assets/content.pack.03",
+      "bytes": 19269013,
+      "sha256": "8a796e473b25a49e0d56bc60e7cbc5adfa23be566dfa17ebb317654572dc3a3a"
+    },
+    {
+      "path": "assets/content.pack.manifest.json",
+      "bytes": 1431,
+      "sha256": "49a9b007e2f8605e5dc29c25f97090588f1d974ba1e90940915f5aee7e925b23"
+    },
+    {
+      "path": "asyncify-metrics.js",
+      "bytes": 1768,
+      "sha256": "a53ffc2461c9f27697c571bebba88888c4d91ac203a900105246c875c9e0ad58"
+    },
+    {
+      "path": "audio-ring.js",
+      "bytes": 2854,
+      "sha256": "148ada907455e4414f5645b8feb4b94d04e7609c00588d8bc9561a37074cee0a"
+    },
+    {
+      "path": "audio-worklet.js",
+      "bytes": 419,
+      "sha256": "33b5160e8ce99e411ebd4be8fbc1f6ab3fc29ad5d2450f57e1f6ad96ba5ffd87"
+    },
+    {
+      "path": "bootstrap.js",
+      "bytes": 1928,
+      "sha256": "bbc84df5669f6d48c8feab6120176f7c388a5cf055ad4372ee016ad50095bc1e"
+    },
+    {
+      "path": "capabilities.js",
+      "bytes": 1239,
+      "sha256": "2d286426b6f7b25804a5cfabdffa2615aceee4be0e4548d20ac08ff82860318c"
+    },
+    {
+      "path": "content-host.js",
+      "bytes": 818,
+      "sha256": "8bf6c7dd6fc9f28b660b09d513539a2fdc84428a878476b512c799922c00f71d"
+    },
+    {
+      "path": "content-pack.js",
+      "bytes": 7493,
+      "sha256": "9234bce25e77fb712d15c093d61a762016bc1b6a7e31e17f68c1edad911a2a0a"
+    },
+    {
+      "path": "content-worker.js",
+      "bytes": 386,
+      "sha256": "438a90272b7d6f72c54a0e7a8ca95159b74bbe55c74078a4de7a59b797d98355"
+    },
+    {
+      "path": "controller-state.js",
+      "bytes": 1913,
+      "sha256": "da736af223fb56f8fef09ba04b207324228d00a4ea0fe5b76ad2786c22c270f5"
+    },
+    {
+      "path": "controller-worker.js",
+      "bytes": 2487,
+      "sha256": "b7f847b2c454ac78f6d1fe3a064c08d44a2672cc265ce736306a83b74397a075"
+    },
+    {
+      "path": "engine-worker.js",
+      "bytes": 10666,
+      "sha256": "79c80fc1d6ecff39271e4fbc754fca1544f3fa67c3ecf48b32a8272830c2e012"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5819,
+      "sha256": "30c90e4c1b0060d5503f85a1354b28a18f707b81a6228aeab067d25781992d03"
+    },
+    {
+      "path": "isolation-worker.js",
+      "bytes": 1140,
+      "sha256": "16de0db3264c51929bc675603870470ec2f02d044d6590dce34fcdbe64383ef5"
+    },
+    {
+      "path": "licenses/BUILD.txt",
+      "bytes": 3087,
+      "sha256": "54856ef1e01f294f2aef48c2e094deceac489e9533be55f1c946da8a44808519"
+    },
+    {
+      "path": "licenses/Emscripten.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "licenses/GPL-2.0.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/SDL2.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "licenses/retail-legal.txt",
+      "bytes": 504,
+      "sha256": "db2b8772297ad365caf07b5b4bc8a9c4aa9fdcaa2dffb3f40618b87fb4663ceb"
+    },
+    {
+      "path": "mobile.css",
+      "bytes": 3770,
+      "sha256": "4d487c7b8c80b86090d7a462c22582982c39783d9cd2b90c5c7480a58b5ebbd7"
+    },
+    {
+      "path": "mobile.js",
+      "bytes": 13784,
+      "sha256": "2e1b6d96c58f826b22f12783868c927e36c2c09581f123db92374f4300206010"
+    },
+    {
+      "path": "performance-report.js",
+      "bytes": 10312,
+      "sha256": "a032021940900a46ad6a2e7a907b7f393080c8c44936b2b5a2395dd25a261807"
+    },
+    {
+      "path": "performance.js",
+      "bytes": 4881,
+      "sha256": "c9392ccc8c13a03966aed89afdb32dfa102f0138c4e31952037e5e8d7f001c18"
+    },
+    {
+      "path": "save-store.js",
+      "bytes": 13433,
+      "sha256": "fcaff9f6d72b2a99ce7ec8507e1053179c0d532c300d39551d9a1da1c75364ae"
+    },
+    {
+      "path": "vendor/sha256.LICENSE.txt",
+      "bytes": 1076,
+      "sha256": "0fea2e0cffe72ee17adc25c42e55daf5c87c6e9cd5b3362ee4213890bda0ee7c"
+    },
+    {
+      "path": "vendor/sha256.min.js",
+      "bytes": 9230,
+      "sha256": "520a831cf3ba0d5d0c745967fbf68926a15a82148f995686cf9e8be56c9d6dfb"
+    },
+    {
+      "path": "vendor/virtual-gamepad/GamepadApiWrapper.js",
+      "bytes": 9062,
+      "sha256": "e1e62716590ba77f65f515eb32124a048bde0154ef4bf98cc247951e228195ee"
+    },
+    {
+      "path": "vendor/virtual-gamepad/GamepadDisplay.js",
+      "bytes": 8319,
+      "sha256": "ba4f7e9c88ce8ed05ca9b813d5617cc4b18eca2f38b105d0b72d2bcb9a93b9e6"
+    },
+    {
+      "path": "vendor/virtual-gamepad/GamepadEmulator.js",
+      "bytes": 25168,
+      "sha256": "21a0f6b1f5fbb4df0e3cd9ce98355d2166e5a6696a115e99d52e6c8d18056833"
+    },
+    {
+      "path": "vendor/virtual-gamepad/LICENSE",
+      "bytes": 1065,
+      "sha256": "48708f501871f6c27be2709a3750315bff7887d238e633f4cd3aad75951352f1"
+    },
+    {
+      "path": "vendor/virtual-gamepad/NOTICE.md",
+      "bytes": 844,
+      "sha256": "a431756906fe47ba5d63f6188f3ff72f61eed1ca248fe4070138db710ae7409d"
+    },
+    {
+      "path": "vendor/virtual-gamepad/base.css",
+      "bytes": 555,
+      "sha256": "05290e8d62b09764b02f6965b57da346de78b2e3919f255d1798a72e48ebba55"
+    },
+    {
+      "path": "vendor/virtual-gamepad/enums.js",
+      "bytes": 3796,
+      "sha256": "4796afc24bae95581f26c54a9814f1c1758039f042d03ac3a7066b90392ed31a"
+    },
+    {
+      "path": "vendor/virtual-gamepad/left.svg",
+      "bytes": 28428,
+      "sha256": "789a5a97bd3359a060e7f7bfc824add19f2e792698ec2102d3ab1ae6c9f1a257"
+    },
+    {
+      "path": "vendor/virtual-gamepad/right.svg",
+      "bytes": 29113,
+      "sha256": "0a73556fbf3e2445e14837cbac57b7fde127502e023f642218652362d7db3f57"
+    },
+    {
+      "path": "vendor/virtual-gamepad/utilities.js",
+      "bytes": 1830,
+      "sha256": "895ccd898a40e3098da11b1fdbd690ebcd9842c471becb3bad6d064b314b38f2"
+    },
+    {
+      "path": "worker-engine.js",
+      "bytes": 192852,
+      "sha256": "3d02a58ed1ef5e4c7f57d79fa8323edee1006c59757cb88709d904020c04a37d"
+    },
+    {
+      "path": "worker-engine.wasm",
+      "bytes": 3591683,
+      "sha256": "800d3395d9828409072174944514fa040200f5555022f08ed63bfdcce045ab68"
+    },
+    {
+      "path": "worker-host.js",
+      "bytes": 15383,
+      "sha256": "1281364864df15e508d07bd3bfce2169de8dd1d5b49c86908280055b236ccf65"
+    }
+  ]
+}

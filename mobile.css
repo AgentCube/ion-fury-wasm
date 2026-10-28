@@ -1,0 +1,41 @@
+@import url('vendor/virtual-gamepad/base.css');
+:root { --control-scale: 1; --control-opacity: .65; }
+[hidden] { display: none !important; }
+#mobile-tools { position: absolute; right: 8px; top: 8px; z-index: 3; display: flex; align-items: center; justify-content: center; gap: 8px; }
+#tools-panel { position: fixed; z-index: 5; right: max(8px, env(safe-area-inset-right)); top: max(40px, env(safe-area-inset-top)); width: min(390px, calc(100vw - 16px)); max-height: 80dvh; overflow: auto; padding: 16px; background: #10151ff5; border: 1px solid #64748b; border-radius: 12px; font-size: 14px; touch-action: pan-y; }
+#tools-panel h2 { font-size: 17px; margin: 8px 0; }
+#tools-panel label { display: block; margin: 8px 0; }
+#tools-panel input[type=range] { width: 52%; float: right; }
+#tools-panel button, #tools-panel select, #tools-panel input[type=text] { margin: 4px 0; min-height: 36px; max-width: 100%; }
+#tools-panel p { line-height: 1.45; color: #cbd5e1; }
+#audio-resume { position: fixed; bottom: max(8px, env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%); z-index: 6; }
+#save-warning { position: fixed; bottom: max(8px, env(safe-area-inset-bottom)); left: 8px; max-width: 65vw; margin: 0; padding: 5px 8px; background: #211c10de; color: #ead6a0; font-size: 12px; pointer-events: none; z-index: 6; }
+#touch-controls { position: absolute; inset: 0; pointer-events: none; z-index: 2; opacity: var(--control-opacity); user-select: none; -webkit-user-select: none; touch-action: none; }
+.pad-half { position: absolute; bottom: max(8px, env(safe-area-inset-bottom)); width: calc(min(23vw, 160px) * var(--control-scale)); touch-action: none; }
+#pad-left { left: max(8px, env(safe-area-inset-left)); }
+#pad-right { right: max(8px, env(safe-area-inset-right)); }
+.pad-half svg { display: block; width: 100%; max-height: 88dvh; overflow: visible; }
+#touch-controls .gpad-base { opacity: .12; }
+#touch-controls .gpad-shadow { opacity: .15; }
+#touch-controls .gpad-btn-bg, #touch-controls .gpad-stick-base { fill: #172131; stroke: #d8ebff; stroke-width: .8; stroke-opacity: .65; }
+#touch-controls .gpad-btn-icon { fill: #eef6ff; }
+#touch-controls .gpad-btn-icon, #touch-controls .gpad-btn-icon * { stroke: #eef6ff !important; }
+#touch-controls .gpad-highlight { fill: #86bffe; }
+#touch-controls .pad-label { fill: #fff; font: bold 9px sans-serif; pointer-events: none; }
+#touch-controls text { fill: #e2e8f0; }
+#touch-controls .gpad-btn-bg, #touch-controls .gpad-btn-bg * { fill: #172131 !important; }
+#touch-controls #start_button_icon, #touch-controls #select_button_icon { opacity: .15; }
+#touch-controls .gpad-tap-target { touch-action: none; }
+#rotate-device { display: none; }
+body.mobile, body.touch-enabled { overscroll-behavior: none; }
+body.mobile main, body.touch-enabled main { min-height: 100dvh; }
+body.mobile #game, body.touch-enabled #game:fullscreen { width: 100vw; height: 100dvh; display: grid; place-items: center; }
+body.mobile canvas { width: min(100vw, calc(100dvh * 4 / 3)); max-height: 100dvh; touch-action: none; }
+body.mobile #fullscreen { display: none; }
+body.mobile #mobile-tools { position: fixed; right: max(8px, env(safe-area-inset-right)); top: max(6px, env(safe-area-inset-top)); z-index: 3; }
+body.mobile #mobile-tools button { padding: 6px 10px; font-size: 12px; background: #152033b8; }
+body.mobile #performance { top: max(6px, env(safe-area-inset-top)); left: max(6px, env(safe-area-inset-left)); font-size: 10px; max-width: 65vw; }
+@media (orientation: portrait) {
+  body.mobile #rotate-device { position: fixed; inset: 0; z-index: 4; display: grid; place-content: center; justify-items: center; gap: 16px; padding: 30px; text-align: center; background: #0b1019; }
+  body.mobile #touch-controls { display: none; }
+}

@@ -1,0 +1,17 @@
+node_modules/
+*.log
+*.tmp
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.o
+*.a
+*.map
+.DS_Store
+logs/
+build/
+obj*/
+__pycache__/
+save*.esv*

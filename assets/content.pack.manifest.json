@@ -1,0 +1,52 @@
+{
+  "format": "ion-fury-content-pack",
+  "version": 1,
+  "variant": "Ion Fury: Aftershock installation, including original Capital Offense campaign",
+  "chunkCount": 4,
+  "totalSize": 160826773,
+  "sha256": "d89f86abc2f49ae477340f5ca9466826cd168f75676740b5016ccf284560d454",
+  "files": [
+    {
+      "path": "fury.grp",
+      "offset": 0,
+      "size": 160826590,
+      "sha256": "33d8f414d2ca92044c033d0986d107131fcb94810ec201992b4485c804e80eeb"
+    },
+    {
+      "path": "fury.grpinfo",
+      "offset": 160826590,
+      "size": 183,
+      "sha256": "0f05ce72b35a2ddfd757d592686e9b54edfc0017b187e8f9b50fa27690b28270"
+    }
+  ],
+  "chunks": [
+    {
+      "index": 0,
+      "name": "content.pack.00",
+      "offset": 0,
+      "size": 47185920,
+      "sha256": "da654a6dd31489319b1d8fe9ff6994dcfe5d0035e64c2864b2baf0e2b95b954e"
+    },
+    {
+      "index": 1,
+      "name": "content.pack.01",
+      "offset": 47185920,
+      "size": 47185920,
+      "sha256": "55c19baec5f64877b6d87300103dfff18be6d25d40f3d38bf0377f649d2bdfc3"
+    },
+    {
+      "index": 2,
+      "name": "content.pack.02",
+      "offset": 94371840,
+      "size": 47185920,
+      "sha256": "6c640a3ea16337cf96866dc7032df6153389f65c4259ebba557bc34b05f6b0e7"
+    },
+    {
+      "index": 3,
+      "name": "content.pack.03",
+      "offset": 141557760,
+      "size": 19269013,
+      "sha256": "8a796e473b25a49e0d56bc60e7cbc5adfa23be566dfa17ebb317654572dc3a3a"
+    }
+  ]
+}
