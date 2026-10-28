@@ -16,7 +16,7 @@ A web port of [Ion Fury](https://store.steampowered.com/app/562860/Ion_Fury/), a
 | Alternate Fire | Right Mouse Button |
 | Jump | `Spacebar` |
 | Crouch | `Ctrl` |
-| Sprint | `Shift` |
+| Walk | `Shift` |
 | Interact / Use | `E` |
 | Reload | `R` |
 | Switch Weapons | Number Keys |
@@ -29,7 +29,7 @@ A web port of [Ion Fury](https://store.steampowered.com/app/562860/Ion_Fury/), a
 | Move | Left Stick |
 | Look / Aim | Right Stick |
 | Fire | `R2 / RT` |
-| Alternate Fire | `L2 / LT` |
+| Alternate Fire | `R1 / RB` |
 | Jump | `L2 / LT` |
 | Crouch | `L1 / LB` |
 | Interact / Use | `X / A` |
